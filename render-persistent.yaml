@@ -1,0 +1,25 @@
+# Optional paid deployment. A persistent disk preserves the SQLite sessions on restart.
+# Do not select this plan without reviewing the Render charges.
+services:
+  - type: web
+    name: supplier-capability-hub-persistent
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /healthz
+    disk:
+      name: supplier-session-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.8"
+      - key: REQUIRE_AUTH
+        value: "1"
+      - key: APP_USERNAME
+        value: "supplier-demo"
+      - key: APP_PASSWORD
+        sync: false
+      - key: DATABASE_PATH
+        value: "/var/data/sessions.sqlite3"

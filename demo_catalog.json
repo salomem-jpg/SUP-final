@@ -1,0 +1,789 @@
+{
+  "cases": [
+    {
+      "id": "DEMO-EX-001",
+      "name": "Atlas Precision Components",
+      "type": "Existing",
+      "country": "Germany",
+      "sector": "Precision machining",
+      "trigger": "Increase output of turbine components to meet forecast demand",
+      "objective": "Raise monthly throughput from 1,000 to 1,600 units in six months without loss of quality",
+      "need_date": "2027-05-15",
+      "criteria": [
+        "A2",
+        "A3",
+        "B4"
+      ],
+      "evidence_verified": true,
+      "evidence": "Synthetic site review: cycle-time study, 12-month OTD history and constrained CNC cell",
+      "gap": "Throughput constrained by CNC utilization and changeovers",
+      "selected": [
+        "INT-001",
+        "INT-007"
+      ],
+      "completed_stage": 8,
+      "diagnosis_approved": true,
+      "solution_approved": true,
+      "finance": {
+        "gain": 12000000,
+        "p_technical": 0.9,
+        "p_on_time": 0.8,
+        "p_sustain": 0.8333333,
+        "cost_experts": 600000,
+        "cost_travel": 100000,
+        "cost_testing": 200000,
+        "cost_tooling": 1000000,
+        "cost_incentives": 100000,
+        "currency": "EUR",
+        "horizon_months": 24,
+        "tech_ok": true,
+        "timing_ok": true,
+        "supplier_willing": "Yes with conditions",
+        "supplier_capex": 2700000,
+        "supplier_opex": 650000,
+        "supplier_contribution": 2200000,
+        "retained_savings": 900000,
+        "productivity_relief": 400000,
+        "other_customer_upside": 650000,
+        "volume_status": "Nonbinding forecast",
+        "mechanism": "Siemens expert support + productivity-ask relief",
+        "sponsor_review": "Approved in simulated scenario",
+        "p_low": 0.45,
+        "p_high": 0.7,
+        "gain_basis": "Protected orders from capacity increase / avoided delivery disruption"
+      },
+      "ratings": {
+        "A1": 3.7,
+        "A2": 2.2,
+        "A3": 2.4,
+        "A4": 3.5,
+        "A5": 3.4,
+        "B1": 3.3,
+        "B2": 3.6,
+        "B3": 3.4,
+        "B4": 2.1,
+        "B5": 2.8,
+        "B6": 3.5,
+        "B7": 3.4,
+        "C1": 3.3,
+        "C2": 3.2,
+        "C3": 3.7,
+        "C4": null
+      },
+      "workflowNotes": {},
+      "reviewDecision": "Pending",
+      "reviewNote": "",
+      "questionnaire": {},
+      "checks": {}
+    },
+    {
+      "id": "DEMO-NEW-002",
+      "name": "Meridian Thermal Systems",
+      "type": "New",
+      "country": "Poland",
+      "sector": "Specialty fabrications",
+      "trigger": "Develop an alternate source for complex heat-exchanger parts",
+      "objective": "Qualify a new source without a binding business award",
+      "need_date": "2027-09-30",
+      "criteria": [
+        "A2",
+        "A5",
+        "C4"
+      ],
+      "evidence_verified": false,
+      "evidence": "Supplier self-assessment only; no site qualification or yield trial yet",
+      "gap": "Requires dedicated tooling, qualification and production transfer",
+      "selected": [
+        "INT-003",
+        "INT-011"
+      ],
+      "completed_stage": 1,
+      "diagnosis_approved": false,
+      "solution_approved": false,
+      "finance": {
+        "gain": 7000000,
+        "p_technical": 0.7,
+        "p_on_time": 0.55,
+        "p_sustain": 0.75,
+        "cost_experts": 450000,
+        "cost_travel": 150000,
+        "cost_testing": 350000,
+        "cost_tooling": 1000000,
+        "cost_incentives": 400000,
+        "currency": "EUR",
+        "horizon_months": 36,
+        "tech_ok": false,
+        "timing_ok": false,
+        "supplier_willing": "No",
+        "supplier_capex": 4200000,
+        "supplier_opex": 900000,
+        "supplier_contribution": 1200000,
+        "retained_savings": 100000,
+        "productivity_relief": 300000,
+        "other_customer_upside": 400000,
+        "volume_status": "No committed volume",
+        "mechanism": "To evaluate: staged trial or conditional award (not approved)",
+        "sponsor_review": "Pending",
+        "p_low": 0.15,
+        "p_high": 0.47,
+        "gain_basis": "Option value of qualifying alternate long-lead source"
+      },
+      "ratings": {
+        "A1": 3.3,
+        "A2": 1.7,
+        "A3": 2.0,
+        "A4": 3.1,
+        "A5": 2.1,
+        "B1": null,
+        "B2": null,
+        "B3": null,
+        "B4": null,
+        "B5": null,
+        "B6": null,
+        "B7": null,
+        "C1": 3.0,
+        "C2": 2.7,
+        "C3": 2.8,
+        "C4": 1.9
+      },
+      "workflowNotes": {},
+      "reviewDecision": "Pending",
+      "reviewNote": "",
+      "questionnaire": {},
+      "checks": {}
+    },
+    {
+      "id": "DEMO-EX-003",
+      "name": "Northstar Castings",
+      "type": "Existing",
+      "country": "United States",
+      "sector": "Industrial castings",
+      "trigger": "Reduce scrap and stabilize output at a complex casting process",
+      "objective": "Raise first-pass yield from 81% to 93% and protect delivery",
+      "need_date": "2027-07-31",
+      "criteria": [
+        "B2",
+        "B3",
+        "B7"
+      ],
+      "evidence_verified": true,
+      "evidence": "SYNTHETIC: six-month FPY series, scrap Pareto and production engineering audit",
+      "gap": "Variation at process setup and weak preventive routines",
+      "selected": [
+        "INT-006",
+        "INT-008"
+      ],
+      "completed_stage": 3,
+      "diagnosis_approved": true,
+      "solution_approved": true,
+      "finance": {
+        "gain": 4500000,
+        "p_technical": 0.9,
+        "p_on_time": 0.8,
+        "p_sustain": 0.75,
+        "cost_experts": 360000,
+        "cost_travel": 90000,
+        "cost_testing": 150000,
+        "cost_tooling": 450000,
+        "cost_incentives": 100000,
+        "currency": "EUR",
+        "horizon_months": 24,
+        "tech_ok": true,
+        "timing_ok": true,
+        "supplier_willing": "Yes",
+        "supplier_capex": 350000,
+        "supplier_opex": 140000,
+        "supplier_contribution": 650000,
+        "retained_savings": 300000,
+        "productivity_relief": 120000,
+        "other_customer_upside": 0,
+        "volume_status": "Existing contract",
+        "mechanism": "Expert support + targeted process improvement",
+        "sponsor_review": "Pending",
+        "p_low": 0.42,
+        "p_high": 0.68,
+        "gain_basis": "Scrap and rework avoidance plus delivery protection"
+      },
+      "ratings": {
+        "A1": 3.4,
+        "A2": 3.6,
+        "A3": 3.2,
+        "A4": null,
+        "A5": 3.1,
+        "B1": 3.0,
+        "B2": 1.8,
+        "B3": 2.1,
+        "B4": 2.9,
+        "B5": 2.6,
+        "B6": 3.1,
+        "B7": 2.4,
+        "C1": 3.4,
+        "C2": 3.0,
+        "C3": 3.6,
+        "C4": 3.2
+      },
+      "workflowNotes": {},
+      "reviewDecision": "Pending",
+      "reviewNote": "",
+      "questionnaire": {},
+      "checks": {}
+    },
+    {
+      "id": "DEMO-EX-004",
+      "name": "Harbor Controls",
+      "type": "Existing",
+      "country": "Czech Republic",
+      "sector": "Electronic assemblies",
+      "trigger": "Reduce continuity exposure from single-source control boards",
+      "objective": "Improve tier-two dependency visibility and recovery preparedness",
+      "need_date": "2027-08-31",
+      "criteria": [
+        "C1",
+        "C2",
+        "C4"
+      ],
+      "evidence_verified": true,
+      "evidence": "SYNTHETIC: dependency mapping workshop and supplier disaster recovery tabletop",
+      "gap": "Unmapped dependencies and incomplete fallback planning",
+      "selected": [
+        "INT-015",
+        "INT-014"
+      ],
+      "completed_stage": 3,
+      "diagnosis_approved": true,
+      "solution_approved": true,
+      "finance": {
+        "gain": 3600000,
+        "p_technical": 0.85,
+        "p_on_time": 0.8,
+        "p_sustain": 0.8,
+        "cost_experts": 220000,
+        "cost_travel": 80000,
+        "cost_testing": 90000,
+        "cost_tooling": 200000,
+        "cost_incentives": 90000,
+        "currency": "EUR",
+        "horizon_months": 30,
+        "tech_ok": true,
+        "timing_ok": true,
+        "supplier_willing": "Yes with conditions",
+        "supplier_capex": 250000,
+        "supplier_opex": 160000,
+        "supplier_contribution": 300000,
+        "retained_savings": 100000,
+        "productivity_relief": 70000,
+        "other_customer_upside": 0,
+        "volume_status": "Existing contract",
+        "mechanism": "Joint mapping and funded continuity trial",
+        "sponsor_review": "Pending",
+        "p_low": 0.38,
+        "p_high": 0.68,
+        "gain_basis": "Risk-adjusted avoided production interruption loss"
+      },
+      "ratings": {
+        "A1": 3.4,
+        "A2": null,
+        "A3": null,
+        "A4": 3.0,
+        "A5": 3.3,
+        "B1": null,
+        "B2": null,
+        "B3": null,
+        "B4": null,
+        "B5": null,
+        "B6": null,
+        "B7": null,
+        "C1": 1.9,
+        "C2": 2.1,
+        "C3": 2.4,
+        "C4": 2.3
+      },
+      "workflowNotes": {},
+      "reviewDecision": "Pending",
+      "reviewNote": "",
+      "questionnaire": {},
+      "checks": {}
+    }
+  ],
+  "criteria": [
+    {
+      "code": "A1",
+      "domain": "Future business readiness",
+      "name": "Future demand readiness",
+      "definition": "Anticipates changes in volume, product mix and demand."
+    },
+    {
+      "code": "A2",
+      "domain": "Future business readiness",
+      "name": "Capacity confidence",
+      "definition": "Demonstrates sufficient and reliable capacity to meet future requirements."
+    },
+    {
+      "code": "A3",
+      "domain": "Future business readiness",
+      "name": "Ramp-up readiness",
+      "definition": "Increases production without compromising quality, cost or delivery."
+    },
+    {
+      "code": "A4",
+      "domain": "Future business readiness",
+      "name": "Localization readiness",
+      "definition": "Establishes or transfers supply and production capabilities to required regions."
+    },
+    {
+      "code": "A5",
+      "domain": "Future business readiness",
+      "name": "Product and process complexity",
+      "definition": "Manages increasingly complex products, technologies and production processes."
+    },
+    {
+      "code": "B1",
+      "domain": "Supplier production capability",
+      "name": "Production-system maturity",
+      "definition": "Uses a structured, standardized and repeatable production management system."
+    },
+    {
+      "code": "B2",
+      "domain": "Supplier production capability",
+      "name": "Operational excellence",
+      "definition": "Continuously improves quality, cost, delivery and productivity."
+    },
+    {
+      "code": "B3",
+      "domain": "Supplier production capability",
+      "name": "Process stability and yield",
+      "definition": "Maintains stable processes while reducing defects, rework and waste."
+    },
+    {
+      "code": "B4",
+      "domain": "Supplier production capability",
+      "name": "Flow and constraint management",
+      "definition": "Improves material and production flow and resolves bottlenecks."
+    },
+    {
+      "code": "B5",
+      "domain": "Supplier production capability",
+      "name": "Throughput and lead time",
+      "definition": "Increases sustainable output and reduces end-to-end production time."
+    },
+    {
+      "code": "B6",
+      "domain": "Supplier production capability",
+      "name": "Operating routines",
+      "definition": "Uses standard work, daily management, reviews and escalation processes."
+    },
+    {
+      "code": "B7",
+      "domain": "Supplier production capability",
+      "name": "Capability building and sustainment",
+      "definition": "Builds employees' skills and independent ownership of improvements."
+    },
+    {
+      "code": "C1",
+      "domain": "Resilience and continuity",
+      "name": "Disruption preparedness",
+      "definition": "Anticipates disruptions and responds quickly to protect supply."
+    },
+    {
+      "code": "C2",
+      "domain": "Resilience and continuity",
+      "name": "Dependency visibility",
+      "definition": "Identifies critical suppliers, materials, sites and concentration risks."
+    },
+    {
+      "code": "C3",
+      "domain": "Resilience and continuity",
+      "name": "Volatility management",
+      "definition": "Adjusts capacity and supply plans as demand or availability changes."
+    },
+    {
+      "code": "C4",
+      "domain": "Resilience and continuity",
+      "name": "Structural adaptability",
+      "definition": "Sustains supply through tariffs, M&A, downsizing and other structural changes."
+    }
+  ],
+  "interventions": [
+    {
+      "id": "INT-001",
+      "name": "GM C-MORE",
+      "criteria": "A2;A3",
+      "mechanism": "Pre-launch modelling of supplier capacity and throughput",
+      "boundary": "Historical pre-launch case",
+      "evidence_status": "KEEP scoped",
+      "reference": "October 29 2026 team deck slide 25",
+      "domain": [
+        "A"
+      ]
+    },
+    {
+      "id": "INT-002",
+      "name": "Cummins capacity certification",
+      "criteria": "A2;A3",
+      "mechanism": "Structured test of capacity headroom and certification process",
+      "boundary": "Public supplier-level outcomes limited",
+      "evidence_status": "KEEP mechanism",
+      "reference": "October 29 2026 team deck slide 25",
+      "domain": [
+        "A"
+      ]
+    },
+    {
+      "id": "INT-003",
+      "name": "Rolls-Royce MBD/E",
+      "criteria": "A5",
+      "mechanism": "Digital technical learning and capability transfer across supplier tiers",
+      "boundary": "Three-year scoped study",
+      "evidence_status": "KEEP scoped",
+      "reference": "October 29 2026 team deck slide 25",
+      "domain": [
+        "A"
+      ]
+    },
+    {
+      "id": "INT-004",
+      "name": "TSMC parts localization",
+      "criteria": "A4;A5",
+      "mechanism": "Engineering support and validation of localized part solutions",
+      "boundary": "Programme outcomes with limited sustainment evidence",
+      "evidence_status": "KEEP programme",
+      "reference": "October 29 2026 team deck slide 25",
+      "domain": [
+        "A"
+      ]
+    },
+    {
+      "id": "INT-005",
+      "name": "Boeing requirements review",
+      "criteria": "A3;A5",
+      "mechanism": "Cross-functional readiness review before new or complex part build",
+      "boundary": "Scoped case and not capacity modelling",
+      "evidence_status": "KEEP scoped",
+      "reference": "October 29 2026 team deck slide 25",
+      "domain": [
+        "A"
+      ]
+    },
+    {
+      "id": "INT-006",
+      "name": "Volvo CE/SIAP",
+      "criteria": "B2;B3;B4;B5;B7",
+      "mechanism": "Joint site-level improvement and supplier knowledge transfer",
+      "boundary": "Historical 2011–2016 scope",
+      "evidence_status": "KEEP historical",
+      "reference": "October 29 2026 team deck slide 26",
+      "domain": [
+        "B"
+      ]
+    },
+    {
+      "id": "INT-007",
+      "name": "Toyota Umemura",
+      "criteria": "B2;B4;B7",
+      "mechanism": "Joint changeover and production-flow improvement with supplier teams",
+      "boundary": "Scoped case not company-wide proof",
+      "evidence_status": "KEEP scoped",
+      "reference": "October 29 2026 team deck slide 26",
+      "domain": [
+        "B"
+      ]
+    },
+    {
+      "id": "INT-008",
+      "name": "TSMC maintenance",
+      "criteria": "B2;B3;B6",
+      "mechanism": "Maintenance methods and recurring performance routines",
+      "boundary": "Post-support independence not fully shown",
+      "evidence_status": "KEEP programme",
+      "reference": "October 29 2026 team deck slide 26",
+      "domain": [
+        "B"
+      ]
+    },
+    {
+      "id": "INT-009",
+      "name": "GE Aerospace EMI",
+      "criteria": "B7",
+      "mechanism": "Training supplier staff to apply production-improvement methods",
+      "boundary": "Single scoped supplier case",
+      "evidence_status": "KEEP scoped",
+      "reference": "October 29 2026 team deck slide 26",
+      "domain": [
+        "B"
+      ]
+    },
+    {
+      "id": "INT-010",
+      "name": "Samsung DS/PSK",
+      "criteria": "B7",
+      "mechanism": "Supplier cascades acquired know-how to partner network",
+      "boundary": "Historical example; current replication unverified",
+      "evidence_status": "KEEP historical",
+      "reference": "October 29 2026 team deck slide 26",
+      "domain": [
+        "B"
+      ]
+    },
+    {
+      "id": "INT-011",
+      "name": "Infineon partner transfers",
+      "criteria": "A2;A4;C4",
+      "mechanism": "Transfer of production assets and personnel to partner suppliers",
+      "boundary": "Continuity outcomes and transfer feasibility remain to verify",
+      "evidence_status": "Investigate for C4",
+      "reference": "October 29 2026 team deck slides 16 and 25",
+      "domain": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "INT-012",
+      "name": "Eaton development instruments",
+      "criteria": "B7",
+      "mechanism": "Graduated supplier support depending on identified need and willingness",
+      "boundary": "Exit rules and supplier outcomes incomplete",
+      "evidence_status": "KEEP mechanism",
+      "reference": "October 29 2026 team deck slide 27",
+      "domain": [
+        "B"
+      ]
+    },
+    {
+      "id": "INT-013",
+      "name": "Toyota Aisin recovery",
+      "criteria": "C1",
+      "mechanism": "Cross-company network reconfigured production after supplier fire",
+      "boundary": "1997 historical response; not a modern supplier-wide resilience result",
+      "evidence_status": "KEEP historical",
+      "reference": "October 29 2026 team deck slide 28",
+      "domain": [
+        "C"
+      ]
+    },
+    {
+      "id": "INT-014",
+      "name": "TSMC hazard counselling",
+      "criteria": "C1",
+      "mechanism": "Technical hazard assessments and supplier physical preventive improvements",
+      "boundary": "Avoided outage outcomes and recovery effectiveness not quantified",
+      "evidence_status": "KEEP prevention",
+      "reference": "October 29 2026 team deck slide 28",
+      "domain": [
+        "C"
+      ]
+    },
+    {
+      "id": "INT-015",
+      "name": "GM dependency mapping",
+      "criteria": "C2",
+      "mechanism": "Buyer-supported supplier mapping skills to identify supply dependencies",
+      "boundary": "Risk reduction or deeper-tier improvement not verified",
+      "evidence_status": "KEEP supporting mechanism",
+      "reference": "October 29 2026 team deck slide 28",
+      "domain": [
+        "C"
+      ]
+    },
+    {
+      "id": "INT-016",
+      "name": "GE Phoenix Specialty response",
+      "criteria": "C1",
+      "mechanism": "Established rapid-response production and supply routines",
+      "boundary": "One reported disruption; retained capability unclear",
+      "evidence_status": "KEEP scoped",
+      "reference": "October 29 2026 team deck slide 28",
+      "domain": [
+        "C"
+      ]
+    },
+    {
+      "id": "INT-017",
+      "name": "Toyota Kirloskar support bands",
+      "criteria": "B2;B7",
+      "mechanism": "Tiered supplier support and 100-day re-audit based on needs",
+      "boundary": "Regional example; not Toyota global policy",
+      "evidence_status": "KEEP regional",
+      "reference": "October 29 2026 team deck slide 27",
+      "domain": [
+        "B"
+      ]
+    },
+    {
+      "id": "INT-018",
+      "name": "GM PICOS",
+      "criteria": "B1;B2;B4;B5",
+      "mechanism": "Short focused engineering support and supplier process redesign",
+      "boundary": "2003 historical case; sustainment limited",
+      "evidence_status": "KEEP historical",
+      "reference": "October 29 2026 team deck slide 26",
+      "domain": [
+        "B"
+      ]
+    },
+    {
+      "id": "INT-019",
+      "name": "ASML embedded engineering",
+      "criteria": "A1;A2;A5",
+      "mechanism": "Embedded technical experts and joint capability roadmaps",
+      "boundary": "Supplier-site results and effort not fully disclosed",
+      "evidence_status": "KEEP mechanism",
+      "reference": "October 29 2026 team deck slide 25",
+      "domain": [
+        "A"
+      ]
+    },
+    {
+      "id": "INT-020",
+      "name": "Airbus ramp-up mitigation",
+      "criteria": "A2;A3;C1;C3",
+      "mechanism": "Supplier support for rate readiness and component availability",
+      "boundary": "Supplier-level continuity improvement cannot be inferred for all C criteria",
+      "evidence_status": "INVESTIGATE C",
+      "reference": "October 29 2026 team deck slides 25 and 28",
+      "domain": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "INT-021",
+      "name": "Ford capacity readiness",
+      "criteria": "A2;A3",
+      "mechanism": "Supplier readiness checks and planned capability actions",
+      "boundary": "Supplier-specific public results limited",
+      "evidence_status": "INVESTIGATE",
+      "reference": "November 5 Siemens discussion and team benchmark notes",
+      "domain": [
+        "A"
+      ]
+    }
+  ],
+  "mock": {
+    "mode": "MOCK ONLY — all supplier identities and observations synthetic, harmonized for demo",
+    "sources": [
+      "SUPPLIER_RISK_MANAGEMENT",
+      "SUPPLIER_PERFORMANCE_MANAGEMENT",
+      "SUPPLIER_EVALUATION",
+      "SUPPLIER_RELATIONSHIP_MANAGEMENT"
+    ],
+    "suppliers": [
+      {
+        "supplier_id": "DEMO-EX-001",
+        "supplier_name": "Atlas Precision Components",
+        "relationship": "Existing",
+        "country": "Germany",
+        "domain": "A,B",
+        "risk": {
+          "critical_dependency": "Specialized CNC machining",
+          "continuity_flag": "Monitor",
+          "risk_summary": "Single critical production line; contingency plan unverified"
+        },
+        "performance": {
+          "on_time_delivery_pct": 82,
+          "first_pass_yield_pct": 91,
+          "monthly_capacity": 1000,
+          "required_monthly_capacity": 1600,
+          "current_lead_days": 52
+        },
+        "evaluation": {
+          "assessment_status": "Illustrative reviewer-confirmed",
+          "priority_gap": "A2, A3, B4",
+          "review_note": "SYNTHETIC snapshot aligned to the demo supplier ID; assessor review required"
+        },
+        "relationship_mgmt": {
+          "account_owner": "Demo procurement manager",
+          "forecast_status": "Planning only, not a purchase commitment",
+          "supplier_willingness": "Yes with conditions"
+        }
+      },
+      {
+        "supplier_id": "DEMO-NEW-002",
+        "supplier_name": "Meridian Thermal Systems",
+        "relationship": "New",
+        "country": "Poland",
+        "domain": "A,C",
+        "risk": {
+          "critical_dependency": "Dedicated tooling and skilled labor",
+          "continuity_flag": "High",
+          "risk_summary": "Cannot commit capacity before investment assurance"
+        },
+        "performance": {
+          "on_time_delivery_pct": null,
+          "first_pass_yield_pct": null,
+          "monthly_capacity": 200,
+          "required_monthly_capacity": 550,
+          "current_lead_days": null
+        },
+        "evaluation": {
+          "assessment_status": "Not validated",
+          "priority_gap": "A2, A5, C4",
+          "review_note": "SYNTHETIC snapshot aligned to the demo supplier ID; assessor review required"
+        },
+        "relationship_mgmt": {
+          "account_owner": "Demo sourcing manager",
+          "forecast_status": "Unawarded volume",
+          "supplier_willingness": "Conditional on co-investment"
+        }
+      },
+      {
+        "supplier_id": "DEMO-EX-003",
+        "supplier_name": "Northstar Castings",
+        "relationship": "Existing",
+        "country": "United States",
+        "domain": "B",
+        "risk": {
+          "critical_dependency": "Casting process stability",
+          "continuity_flag": "Medium",
+          "risk_summary": "Recurring yield issue"
+        },
+        "performance": {
+          "on_time_delivery_pct": 94,
+          "first_pass_yield_pct": 79,
+          "monthly_capacity": 900,
+          "required_monthly_capacity": 930,
+          "current_lead_days": 36
+        },
+        "evaluation": {
+          "assessment_status": "Gap identified",
+          "priority_gap": "B2, B3, B7",
+          "review_note": "SYNTHETIC snapshot aligned to the demo supplier ID; assessor review required"
+        },
+        "relationship_mgmt": {
+          "account_owner": "Demo supplier quality engineer",
+          "forecast_status": "Existing framework agreement",
+          "supplier_willingness": "Open to training"
+        }
+      },
+      {
+        "supplier_id": "DEMO-NEW-004",
+        "supplier_name": "Harbor Grid Components",
+        "relationship": "New",
+        "country": "United States",
+        "domain": "C",
+        "risk": {
+          "critical_dependency": "Sub-tier electronic components",
+          "continuity_flag": "High",
+          "risk_summary": "No tested alternative source or recovery procedure"
+        },
+        "performance": {
+          "on_time_delivery_pct": null,
+          "first_pass_yield_pct": null,
+          "monthly_capacity": null,
+          "required_monthly_capacity": null,
+          "current_lead_days": null
+        },
+        "evaluation": {
+          "assessment_status": "Evidence requested",
+          "priority_gap": "C1, C2, C4",
+          "review_note": "Questionnaire not site-validated"
+        },
+        "relationship_mgmt": {
+          "account_owner": "Demo risk manager",
+          "forecast_status": "Exploratory",
+          "supplier_willingness": "Unknown"
+        }
+      }
+    ]
+  }
+}
